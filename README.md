@@ -1,4 +1,7 @@
 # Avoidance_Game
+
+![Avoidance_Game](Images/Avoidance_Game.jpg)
+
 •	Here I coded an avoidance game where you as the player will be represented as the ‘@’ symbol.
 
 •	There will be ‘*’ symbols falling from the top of the screen and your mission is to avoid being hit by them.
