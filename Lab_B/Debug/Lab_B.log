@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  Base.cpp
+  Console.cpp
+c:\users\calistro vieyra\desktop\jason hinders\lab_b\lab_b\console.cpp(72): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+c:\users\calistro vieyra\desktop\jason hinders\lab_b\lab_b\console.cpp(78): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+c:\users\calistro vieyra\desktop\jason hinders\lab_b\lab_b\console.cpp(133): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  Game.cpp
+  Lab_B.cpp
+  MainMenu.cpp
+  Obstacle.cpp
+  Player.cpp
+  stdafx.cpp
+  Generating Code...
+  Lab_B.vcxproj -> C:\Users\Calistro Vieyra\Desktop\Jason Hinders\Lab_B\Debug\Lab_B.exe
