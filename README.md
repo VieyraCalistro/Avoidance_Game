@@ -5,7 +5,6 @@
 
 •	You will have so many lives and a score counter that increases as you dodge the ‘*’.
 
-
 •	You will use the left, right, up, and down arrows to move the player.
 
 •	If you wish to save your high scores they will be saved to a “Player Stats.txt” file that is automatically generated into the “Lab_B” folder with all the other main files. By leaving the “Player Stats.txt” file in its folder, the program will automatically read this in upon start up and display high scores if chose to do so.
