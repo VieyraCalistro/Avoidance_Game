@@ -18,12 +18,6 @@ public:
 	char GetPlayerCharacter();
 	void SetPlayerCharacter(char aPlayerCharacter);
 
-	//char GetProjectileCharacter();
-	//void SetProjectileCharatcer(char aProjectileCharacter);
-
-	//bool GetLaunched();
-	//void SetLaunched(bool aLaunched);
-
 private:
 
 	char _playerCharacter;

@@ -1,27 +1,14 @@
 // Lab_B.cpp : This file contains the 'main' function. Program execution begins and ends there.
 
-//#include <Windows.h>
-//#define _CRTDBG_MAP_ALLOC
-//#include <cstdlib>
-//#include <crtdbg.h>
 #include "pch.h"
 #include <iostream>
 #include "Console.h"
-//#include "Game.h"
 #include "MainMenu.h"
-//#include <ctime>
 using namespace std;
 
 
 int main()
 {
-	////Also need this for memory leak code stuff
-	//_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
-	//_CrtSetBreakAlloc(-1); //Important!
-
-	// Seed rand( )
-	//srand(time(0));
-
 	MainMenu begin;
 
 	begin.Play();

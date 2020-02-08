@@ -3,39 +3,9 @@
 #include "Player.h"
 #include "Game.h"
 #include "Obstacle.h"
-//#include <chrono>
 #include "MainMenu.h"
-//using namespace chrono;
 using namespace std;
 using namespace System;
-
-//struct PlayerStats
-//{
-//	char* name = nullptr;
-//	int score = 0;
-//};
-
-//void UserInfo()
-//{
-//	PlayerStats* userInfo = new PlayerStats();
-//
-//	char buffer[64];
-//
-//	cin.clear();
-//	cin.ignore(INT_MAX, '\n');
-//	cout << endl;
-//
-//	cout << "Enter you name? ";
-//	cin.getline(buffer, 64, '\t');
-//
-//	int nameCount = strlen(buffer) + 1;
-//
-//	userInfo->name = new char[nameCount];
-//
-//	strcpy_s(userInfo->name, nameCount, buffer);
-//
-//	//userInfo->score = Getscore();
-//}
 
 Game::Game()
 {
@@ -95,14 +65,6 @@ void Game::Collision()
 
 			if (player != 0)
 			{
-				
-				/*if (BaseList[index]->GetYPos() == player->GetProjectileYPos() && BaseList[index]->GetXPos() == player->GetProjectileXPos())
-				{
-					BaseList[index]->SetProjectileYPos(0);
-					BaseList[index]->SetProjectileXPos(1 + (rand() % 90));
-				}
-				player->SetProjectileYPos(player->GetYPos());*/
-				
 				for (unsigned int index = 0; index < BaseList.size(); index++)
 				{
 					if (BaseList[index]->GetYPos() == Console::WindowHeight() - 1)

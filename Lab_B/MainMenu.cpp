@@ -180,9 +180,6 @@ void MainMenu::Textout(double score)
 	cin.ignore(INT_MAX, '\n');
 	cout << endl;
 
-	
-	//vector<PlayerStats*> status;
-
 	status.push_back(new PlayerStats);
 
 	cout << "Enter you name? ";

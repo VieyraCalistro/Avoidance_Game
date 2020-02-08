@@ -1,2 +1,8 @@
-﻿  MainMenu.cpp
-  Lab_B.vcxproj -> C:\Users\Calistro Vieyra\Sync\Projects\Calistro Vieyra_Avoidance Game\x64\Debug\Lab_B.exe
+﻿  Base.cpp
+  Game.cpp
+  Lab_B.cpp
+  MainMenu.cpp
+  Obstacle.cpp
+  Player.cpp
+  Generating Code...
+  Lab_B.vcxproj -> C:\Users\Calistro Vieyra\Desktop\A\Avoidance_Game\x64\Debug\Lab_B.exe

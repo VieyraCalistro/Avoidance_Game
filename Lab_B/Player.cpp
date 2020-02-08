@@ -25,22 +25,6 @@ Player::~Player()
 
 void Player::Update()
 {
-	/*if (GetAsyncKeyState(VK_SPACE))
-	{
-		SetLaunched(true);
-
-	}*/
-
-	/*if (GetLaunched() == true)
-	{
-		Console::Show(GetProjectileXPos(), GetProjectileYPos(), GetProjectileCharacter());
-		SetProjectileXPos(GetXPos());
-
-		SetProjectileYPos(GetProjectileYPos() - 1);
-		Sleep(10);
-	}*/
-	
-
 	if (GetAsyncKeyState(VK_UP))
 	{
 		if (GetYPos() < 0)
@@ -96,10 +80,7 @@ void Player::Update()
 
 void Player::Render()
 {
-	
 	Console::Show(GetXPos(), GetYPos(), GetImage());
-
-	//SetLaunched(false);
 }
 
 char Player::GetPlayerCharacter()
@@ -111,23 +92,3 @@ void Player::SetPlayerCharacter(char aPlayerCharacter)
 {
 	_playerCharacter = aPlayerCharacter;
 }
-
-//char Player::GetProjectileCharacter()
-//{
-//	return projectileCharacter;
-//}
-//
-//void Player::SetProjectileCharatcer(char aProjectileCharacter)
-//{
-//	projectileCharacter = aProjectileCharacter;
-//}
-//
-//bool Player::GetLaunched()
-//{
-//	return launched;
-//}
-//
-//void Player::SetLaunched(bool aLaunched)
-//{
-//	launched = aLaunched;
-//}

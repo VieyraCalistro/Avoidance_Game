@@ -56,23 +56,3 @@ void Base::SetImage(char aImage)
 	_image = aImage;
 }
 
-//int Base::GetProjectileXPos()
-//{
-//	return projectileXPos;
-//}
-//
-//void Base::SetProjectileXPos(int aXPos)
-//{
-//	projectileXPos = aXPos;
-//}
-//
-//int Base::GetProjectileYPos()
-//{
-//	return projectileYPos;
-//}
-//
-//void Base::SetProjectileYPos(int aYPos)
-//{
-//	projectileYPos = aYPos;
-//}
-
